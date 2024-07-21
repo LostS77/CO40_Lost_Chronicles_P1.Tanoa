@@ -3,21 +3,21 @@
 //To generate the Gravity Ray place this in the init field of the object you want to use, 
 //either you place the object in Eden or you create it dynamically
 
-null = [this] execVM "AL_gravity\gravity_ray.sqf";
+null = [this] execVM "modules\anomalies\AL_gravity\gravity_ray.sqf";
 
 // also you can use the name of the object when running the script:
 
-null = [ray] execVM "AL_gravity\gravity_ray.sqf";
+null = [ray] execVM "modules\anomalies\AL_gravity\gravity_ray.sqf";
 
 
 // ================================== The Generator
 // To create the Gravity Generator place this in the init field of the object you want to use as generator
 
-null = [this] execVM "AL_gravity\gravity_generator.sqf";
+null = [this] execVM "modules\anomalies\AL_gravity\gravity_generator.sqf";
 
 
 // run the line below in global space
-null = [object_name_generator] execVM "AL_gravity\gravity_generator.sqf";
+null = [object_name_generator] execVM "modules\anomalies\AL_gravity\gravity_generator.sqf";
 
 /*********** Gravity ********************************************
 

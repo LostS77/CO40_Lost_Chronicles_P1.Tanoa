@@ -30300,7 +30300,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
-				init="this addaction [""Disable Schield."",""activate.sqf""];";
+				init="this addaction [""Disable Schield."",""modules\anomalies\AL_gravity\activate.sqf""];";
 			};
 			id=1144;
 			type="Land_Laptop_unfolded_F";
