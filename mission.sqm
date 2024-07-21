@@ -4741,7 +4741,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="intello.jpg";
+							value="images\intello.jpg";
 						};
 					};
 				};
@@ -5134,7 +5134,7 @@ class Mission
 			angle=4.9734902;
 			class Attributes
 			{
-				onActivation="hint parseText ""Unknown Signal<br/><img size= '5' image='static.jpg'/><br/>"";";
+				onActivation="hint parseText ""Unknown Signal<br/><img size= '5' image='images/static.jpg'/><br/>"";";
 				sizeA=2;
 				sizeB=10;
 				activationBy="ANYPLAYER";
@@ -30316,7 +30316,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="Armacham.jpg";
+							value="images/Armacham.jpg";
 						};
 					};
 				};
@@ -31690,7 +31690,7 @@ class Mission
 			angle=1.8695438;
 			class Attributes
 			{
-				onActivation="hint parseText ""Unknown Signal<br/><img size= '5' image='static.jpg'/><br/>"";";
+				onActivation="hint parseText ""Unknown Signal<br/><img size= '5' image='images/static.jpg'/><br/>"";";
 				sizeA=9;
 				sizeB=7;
 				activationBy="ANYPLAYER";
@@ -33434,7 +33434,7 @@ class Mission
 			position[]={11401.83,118.67706,12279.595};
 			class Attributes
 			{
-				onActivation="hint parseText ""Unknown Signal<br/><img size= '5' image='static.jpg'/><br/>"";";
+				onActivation="hint parseText ""Unknown Signal<br/><img size= '5' image='images/static.jpg'/><br/>"";";
 				activationBy="ANYPLAYER";
 				isServerOnly=1;
 				effectSound="signal";
