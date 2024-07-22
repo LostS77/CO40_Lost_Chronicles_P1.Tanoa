@@ -36,7 +36,7 @@
 
 	// Only for logged-in admins
 	// See: https://community.bistudio.com/wiki/Description.ext#enableDebugConsole
-	enableDebugConsole = 1;
+	enableDebugConsole = 2;
 
 	// Sets the mode for corpse removal manager. 1 = All units are managed by the manager
 	// See: https://community.bistudio.com/wiki/Description.ext#corpseManagerMode

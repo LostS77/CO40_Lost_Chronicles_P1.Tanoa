@@ -26,6 +26,6 @@ class equipment_prot_toxic {
 	{
 		x=safeZoneX; y=safeZoneY; w=safeZoneW; h=safeZoneH;
 		idc = 1200;
-		text = "images\al_helmet.paa";
+		text = "modules\anomalies\AL_farty\images\al_helmet.paa";
 	};
 };

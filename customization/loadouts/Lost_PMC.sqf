@@ -6,7 +6,9 @@ Futuristic PMC
 
 SET_GROUP(clothing)
 	["rhs_uniform_acu_ocp"] call FUNC(AddItem); // Uniform
-	["rhsusf_ach_helmet_ocp","rhsusf_ach_helmet_ocp_alt","rhsusf_ach_helmet_headset_ocp","rhsusf_ach_helmet_headset_ocp_alt","rhsusf_ach_helmet_ocp_norotos"] call FUNC(AddItemRandom); //Helmet
+	//["H_PilotHelmetFighter_B"] call FUNC(AddItem); //Helmet
+	//["rhsusf_ach_helmet_ocp","rhsusf_ach_helmet_ocp_alt","rhsusf_ach_helmet_headset_ocp","rhsusf_ach_helmet_headset_ocp_alt","rhsusf_ach_helmet_ocp_norotos"] call FUNC(AddItemRandom); //Helmet
+	["H_PilotHelmetFighter_B"] call FUNC(AddItemRandom); //Helmet
 	["rhs_googles_black","rhs_googles_clear","rhs_googles_orange","rhs_googles_yellow","rhs_ess_black","rhsusf_oakley_goggles_blk","rhsusf_oakley_goggles_clr","rhsusf_oakley_goggles_ylw"] call FUNC(AddItemRandom); //Facewaer
 	["rhsusf_assault_eagleaiii_ocp"] call FUNC(AddItem); //Backpack
 END_GROUP;
@@ -34,14 +36,11 @@ SET_GROUP(bits)
 	["ItemGPS"] call FUNC(AddItem);
 END_GROUP;
 
-/*
-SET_GROUP(grenades)1
+SET_GROUP(grenades)
 	["rhs_mag_an_m8hc", 1, "uniform"] call FUNC(AddItem);
 	["rhs_mag_m67", 2, "uniform"] call FUNC(AddItem);
 END_GROUP;
-*/
 
-/*	
 SET_GROUP(M4)
 	["rhs_mag_30Rnd_556x45_M855A1_Stanag", 10, "vest"] call FUNC(AddItem);
 	["rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red", 3, "vest"] call FUNC(AddItem);
@@ -52,7 +51,6 @@ SET_GROUP(M4)
 	["rhsusf_acc_rotex5_grey"] call FUNC(AddItem);
 	["rhsusf_acc_grip1","rhsusf_acc_kac_grip","rhsusf_acc_rvg_blk","rhsusf_acc_tdstubby_blk","rhsusf_acc_grip3"] call FUNC(AddItemRandom);
 END_GROUP;
-*/
 
 //Platoon Leader
 //[this, "PMC_PL"] call FW_fnc_GearScript;
