@@ -157,7 +157,7 @@ if (_anomalyVSfield) then {
 					[_fist,_dir_fist,1,55] call fn_dir_speed;
 					sleep 0.2;
 					_tgt_fart attachTo [_fist,[0,0,0]];
-					_tgt_fart setDammage ((getDammage _tgt_fart) + 0.35);
+					_tgt_fart setDamage ((getDamage _tgt_fart) + 0.35);
 					[[_tgt_fart],"modules\anomalies\farty\damage_tgt.sqf"] remoteExec ["execVM",_tgt_fart];
 					sleep 0.1;
 					detach _tgt_fart;
