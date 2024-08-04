@@ -107,6 +107,636 @@ class CfgSounds {
 	#include "core\description.hpp" //DO NOT REMOVE
 	#include "modules\modules.sqf" //DO NOT REMOVE
 	#undef description_sounds
+	class 13753
+	{
+		name = "13753"; // Name for mission editor
+		sound[] = {"\Sound\13753.ogg", 2, 1.0};
+		titles[] = {0, ""};
+	};
+	class signal
+	{
+		name = "signal";
+		sound[] = {"\Sound\signal.ogg", 2, 1.0};
+		titles[] = {0,""};
+	};
+	class signal3
+	{
+		name = "signal3";
+		sound[] = {"\Sound\signal3.ogg", 2, 1.0};
+		titles[] = {0,""};
+	};
+	class ScreamDoctor
+	{
+		name = "ScreamDoctor";
+		sound[] = {"\Sound\ScreamDoctor.ogg", 2, 1.0};
+		titles[] = {0,""};
+	};	
+	class weeping01
+	{
+		name = "weeping01";
+		sound[] = {"\Sound\weeping01.ogg", 2, 1.0};
+		titles[] = {0,""};
+	};	
+	class 12678
+	{
+		name = "12678";
+		sound[] = {"\Sound\12678.ogg", db+2, 1};
+		titles[] = {1, ""};
+	};	
+	class 12704
+	{
+		name = "12704";
+		sound[] = {"\Sound\12704.ogg", 2, 1};
+		titles[] = {1, ""};
+	};
+	class Scream01
+	{
+		name = "Scream01";
+		sound[] = {"\Sound\Scream01.ogg", 3, 1};
+		titles[] = {1, ""};
+	};
+	class spec1
+	{
+		name = "spec1";
+		sound[] = {"\Sound\spec1.ogg", 3, 1};
+		titles[] = {1, ""};
+	};
+	class ScaryAlma01Sound
+	{
+		name = "ScaryAlma01Sound";
+		sound[] = {"\Sound\ScaryAlma01Sound.ogg", 2, 1};
+		titles[] = {1, ""};
+	};
+	class alma_talk_1
+	{
+		name = "alma_talk_1";
+		sound[] = {"\Sound\alma_talk_1.ogg", 2, 1};
+		titles[] = {1, ""};
+	};
+	class laugh02
+	{
+		name = "laugh02";
+		sound[] = {"\Sound\laugh02.ogg", 2, 1};
+		titles[] = {1, ""};
+	};
+	class laugh04
+	{
+		name = "laugh04";
+		sound[] = {"\Sound\laugh04.ogg", 2, 1};
+		titles[] = {1, ""};
+	};
+	class laugh05
+	{
+		name = "laugh05";
+		sound[] = {"\Sound\laugh05.ogg", 2, 1};
+		titles[] = {1, ""};
+	};
+	class click_sl
+	{
+		name = "click_sl";
+		sound[] = {"\Sound\click_sl.ogg", 1, 1};
+		titles[] = {1, ""};
+	};
+	class Ambush
+	{
+		name = "Ambush";
+		sound[] = {"\Sound\Ambush.ogg", 2, 1};
+		titles[] = {1, ""};
+	};
+	class f_protectionresponse_5_spkr
+	{
+		name = "f_protectionresponse_5_spkr";
+		sound[] = {"\Sound\f_protectionresponse_5_spkr.ogg", 1, 1};
+		titles[] = {1, ""};
+	};
+	class allunitsmaintainthiscp
+	{
+		name = "allunitsmaintainthiscp";
+		sound[] = {"\Sound\allunitsmaintainthiscp.ogg", 1, 1};
+		titles[] = {1, ""};
+	};
+	class bugscream1
+	{
+		name = "bugscream1";
+		sound[] = {"\Sound\bugscream1.ogg", 1, 1};
+		titles[] = {1, ""};
+	};
+	class doyougetme2
+	{
+		name = "doyougetme2";
+		sound[] = {"\Sound\doyougetme2.ogg", 3, 1};
+		titles[] = {1, ""};
+	};
+	class excersize
+	{
+		name = "excersize";
+		sound[] = {"\Sound\excersize.ogg", 1, 1};
+		titles[] = {1, ""};
+	};
+	class phone
+	{
+		name = "phone";
+		sound[] = {"\Sound\phone.ogg",1,1};
+		titles[] = {1, ""};
+	};
+	class distandgun
+	{
+		name = "distandgun";
+		sound[] = {"\Sound\distandgun.ogg",2, 1};
+		titles[] = {1, ""};
+	};
+	class TensionScience
+	{
+		name = "TensionScience";
+		sound[] = {"\Sound\TensionScience.ogg", 1, 1};
+		titles[] = {1, ""};
+	};
+	class bugthreat
+	{
+		name = "bugthreat";
+		sound[] = {"\Sound\bugthreat.ogg", 1, 1};
+		titles[] = {1, ""};
+	};
+	class tensionaction
+	{
+		name = "tensionaction";
+		sound[] = {"\Sound\tensionaction.ogg", 1, 1};
+		titles[] = {1, 1};
+	};
+	class incoming
+	{
+		name = "incoming";
+		sound[] = {"\Sound\incoming.ogg", 1, 1};
+		titles[] = {1, 1};
+	};
+	class ambient_tehnic1
+	{
+		name = "ambient_tehnic1";
+		sound[] = {"\Sound\ambient_tehnic1.ogg", 1, 1};
+		titles[] = {1, ""};
+	};
+	class bonfire
+	{
+		name = "bonfire";
+		sound[] = {"\Sound\bonfire.ogg", 1, 1};
+		titles[] = {1, ""};
+	};
+	class captainstarship1
+	{
+		name = "captainstarship1";
+		sound[] = {"\Sound\captainstarship1.ogg", 2, 1};
+		titles[] = {1, ""};
+	};
+	class captainlines2
+	{
+		name = "captainlines2";
+		sound[] = {"\Sound\captainlines2.ogg", 2, 1};
+		titles[] = {1, ""};
+	};
+	class HELPAO
+	{
+		name = "HELPAO";
+		sound[] = {"\Sound\HELPAO.ogg", 1, 1};
+		titles[] = {1, ""};
+	};
+	class BACKUP
+	{
+		name = "BACKUP";
+		sound[] = {"\Sound\BACKUP.ogg", 4, 1};
+		titles[] = {1, ""};
+	};
+	class AIRSUPPORT
+	{
+		name = "AIRSUPPORT";
+		sound[] = {"\Sound\AIRSUPPORT.ogg", 1, 1};
+		titles[] = {1, ""};
+	};
+	class RIP
+	{
+		name = "RIP";
+		sound[] = {"\Sound\RIP.ogg", 1, 1};
+		titles[] = {1, ""};
+	};
+	class WOUNDED
+	{
+		name = "WOUNDED";
+		sound[] = {"\Sound\WOUNDED.ogg", 1, 1};
+		titles[] = {1, ""};
+	};
+	class LAMP1
+	{
+		name = "LAMP1";
+		sound[] = {"\Sound\LAMP1.ogg", 4, 1};
+		titles[] = {1, ""};
+	};
+	class LAMP1BROKEN
+	{
+		name = "LAMP1BROKEN";
+		sound[] = {"\Sound\LAMP1BROKEN.ogg", 4, 1};
+		titles[] = {1, ""};
+	};
+	class INTROMISSION2
+	{
+		name = "INTROMISSION2";
+		sound[] = {"\Sound\INTROMISSION2.ogg", 1, 1};
+		titles[] = {1, ""};
+	};
+	class Horror5
+	{
+		name = "Horror5";
+		sound[] = {"\Sound\Horror5.ogg", 5, 1};
+		titles[] = {1, ""};
+	};
+	class Crying
+	{
+		name = "Crying";
+		sound[] = {"\Sound\Crying.ogg", 5, 1};
+		titles[] = {1, ""};
+	};
+	class overhere01
+	{
+		name = "overhere01";
+		sound[] = {"\Sound\overhere01.ogg", 5, 1};
+		titles[] = {1, ""};
+	};
+	class Horror1
+	{
+		name = "Horror1";
+		sound[] = {"\Sound\Horror1.ogg", 5, 1};
+		titles[] = {1, ""};
+	};
+	class scanner_explode_crash2
+	{
+		name = "scanner_explode_crash2";
+		sound[] = {"\Sound\scanner_explode_crash2.ogg", 2, 1};
+		titles[] = {1, ""};
+	};
+	class scpradio6
+	{
+		name = "scpradio6";
+		sound[] = {"\Sound\scpradio6.ogg", 3, 1};
+		titles[] = {1, ""};
+	};
+	class Metalgate1
+	{
+		name = "Metalgate1";
+		sound[] = {"\Sound\Metalgate1.ogg", 2, 1};
+		titles[] = {1, ""};
+	};
+	class footstepsstairs
+	{
+		name = "footstepsstairs";
+		sound[] = {"\Sound\footstepsstairs.ogg", 2, 1};
+		titles[] = {1, ""};
+	};
+	class footstepswood
+	{
+		name = "footstepswood";
+		sound[] = {"\Sound\footstepswood.ogg", 2, 1};
+		titles[] = {1, ""};
+	};
+	class speech1
+	{
+		name = "speech1";
+		sound[] = {"\Sound\speech1.ogg", 4, 1};
+		titles[] = {1, ""};
+	};
+	class PCsound
+	{
+		name = "PCsound";
+		sound[] = {"\Sound\PCsound.ogg", 2, 1};
+		titles[] = {1, ""};
+	};
+	class fuel
+	{
+		name = "fuel";
+		sound[] = {"\Sound\fuel.ogg", 1, 1};
+		titles[] = {1, ""};
+	};
+	class idle_01
+	{
+		name = "idle_01";
+		sound[] = {"\Sound\idle_01.ogg", db+5, 1};
+		titles[] = {};
+	};
+	class idle_02
+	{
+		name = "idle_02";
+		sound[] = {"\Sound\idle_02.ogg", db+10, 1};
+		titles[] = {};
+	};	
+	class post_impact_01
+	{
+		name = "post_impact_01";
+		sound[] = {"\Sound\post_impact_01.ogg", 1, 1};
+		titles[] = {};
+	};
+	class post_impact_02
+	{
+		name = "post_impact_02";
+		sound[] = {"\Sound\post_impact_02.ogg", 1, 1};
+		titles[] = {};
+	};		
+	class post_impact_03
+	{
+		name = "post_impact_03";
+		sound[] = {"\Sound\post_impact_03.ogg", 1, 1};
+		titles[] = {};
+	};	
+	class post_impact_04
+	{
+		name = "post_impact_04";
+		sound[] = {"\Sound\post_impact_04.ogg", 1, 1};
+		titles[] = {};
+	};
+	class impact_30	
+	{
+		name = "impact_30";
+		sound[] = {"\Sound\impact_30.ogg",db+30, 1};
+		titles[] = {};
+	};	
+	class impact_27
+	{
+		name = "impact_27";
+		sound[] = {"\Sound\impact_27.ogg",db+30, 1};
+		titles[] = {};
+	};
+	class salt_05
+	{
+		name = "salt_05";
+		sound[] = {"\Sound\salt_05.ogg",db+20, 1};
+		titles[] = {};
+	};
+	class salt_08
+	{
+		name = "salt_08";
+		sound[] = {"\Sound\salt_08.ogg",db+20, 1};
+		titles[] = {};
+	};
+	class move_01
+	{
+		name = "move_01";
+		sound[] = {"\Sound\move_01.ogg",1, 1};
+		titles[] = {};
+	};
+	class move_02
+	{
+		name = "move_02";
+		sound[] = {"\Sound\move_02.ogg",1, 1};
+		titles[] = {};
+	};
+	class move_03
+	{
+		name = "move_03";
+		sound[] = {"\Sound\move_03.ogg",1, 1};
+		titles[] = {};
+	};
+	class move_04
+	{
+		name = "move_04";
+		sound[] = {"\Sound\move_04.ogg",1, 1};
+		titles[] = {};
+	};
+	class move_05
+	{
+		name = "move_05";
+		sound[] = {"\Sound\move_05.ogg",1, 1};
+		titles[] = {};
+	};
+	class move_06
+	{
+		name = "move_06";
+		sound[] = {"\Sound\move_06.ogg",1, 1};
+		titles[] = {};
+	};
+	class move_07
+	{
+		name = "move_07";
+		sound[] = {"\Sound\move_07.ogg",1, 1};
+		titles[] = {};
+	};
+	class move_08
+	{
+		name = "move_08";
+		sound[] = {"\Sound\move_08.ogg",1, 1};
+		titles[] = {};
+	};
+	class move_09
+	{
+		name = "move_09";
+		sound[] = {"\Sound\move_099.ogg",1, 1};
+		titles[] = {};
+	};
+	class move_10
+	{
+		name = "move_10";
+		sound[] = {"\Sound\move_10.ogg",1, 1};
+		titles[] = {};
+	};
+	class move_11
+	{
+		name = "move_11";
+		sound[] = {"\Sound\move_11.ogg",1, 1};
+		titles[] = {};
+	};
+	class move_12
+	{
+		name = "move_12";
+		sound[] = {"\Sound\move_12.ogg",1, 1};
+		titles[] = {};
+	};
+	class move_13
+	{
+		name = "move_13";
+		sound[] = {"\Sound\move_13.ogg",1, 1};
+		titles[] = {};
+	};
+	class move_14
+	{
+		name = "move_14";
+		sound[] = {"\Sound\move_14.ogg",1, 1};
+		titles[] = {};
+	};
+	class move_15
+	{
+		name = "move_15";
+		sound[] = {"\Sound\move_15.ogg",1, 1};
+		titles[] = {};
+	};
+	class bump
+	{
+		name = "bump";
+		sound[] = {"\Sound\bump.ogg",db+20, 1};
+		titles[] = {};
+	};
+	class strigat
+	{
+		name = "strigat";
+		sound[] = {"\Sound\strigat.ogg",db+20, 1};
+		titles[] = {};
+	};
+	class vum
+	{
+		name = "vum";
+		sound[] = {"\Sound\vum.ogg", db+10, 1};
+		titles[] = {};
+	};
+	class up_impact
+	{
+		name = "up_impact";
+		sound[] = {"\Sound\up_impact.ogg", db+10, 1};
+		titles[] = {};
+	};
+	class ecou
+	{
+		name = "ecou";
+		sound[] = {"\Sound\ecou.ogg", db+20, 1};
+		titles[] = {};
+	};		
+	class oscilatie
+	{
+		name = "oscilatie";
+		sound[] = {"\Sound\oscilatie.ogg", db+15, 1};
+		titles[] = {};
+	};	
+	class eco_ray	
+	{
+		name = "eco_ray";
+		sound[] = {"\Sound\eco_ray.ogg", db+3, 1};
+		titles[] = {};
+	};
+	class earthquakes	
+	{
+		name = "earthquakes";
+		sound[] = {"\Sound\earthquakes.ogg", 1, 1};
+		titles[] = {};
+	};
+	class casp_voice
+	{
+		name = "casp_voice";
+		sound[] = {"\Sound\casp_voice.ogg", db+5, 1};
+		titles[] = {};
+	};
+	class 01_salt
+	{
+		name = "01_salt";
+		sound[] = {"\Sound\01_salt.ogg", db+10, 1};
+		titles[] = {};
+	};
+	class 02_salt
+	{
+		name = "2";
+		sound[] = {"\Sound\02_salt.ogg", db+10, 1};
+		titles[] = {};
+	};
+	class 03_salt
+	{
+		name = "03_salt";
+		sound[] = {"\Sound\03_salt.ogg", db+10, 1};
+		titles[] = {};
+	};
+	class 01_tip_casp
+	{
+		name = "01_tip_casp";
+		sound[] = {"\Sound\01_tip_casp.ogg", db+5, 1};
+		titles[] = {};
+	};
+	class 02_tip_casp
+	{
+		name = "02_tip_casp";
+		sound[] = {"\Sound\02_tip_casp.ogg", 0.8, 1};
+		titles[] = {};
+	};
+	class 03_tip_casp
+	{
+		name = "03_tip_casp";
+		sound[] = {"\Sound\03_tip_casp.ogg", db+5, 1};
+		titles[] = {};
+	};
+	class 04_tip_casp
+	{
+		name = "04_tip_casp";
+		sound[] = {"\Sound\04_tip_casp.ogg", db+5, 1};
+		titles[] = {};
+	};
+	class 05_tip_casp
+	{
+		name = "05_tip_casp";
+		sound[] = {"\Sound\05_tip_casp.ogg", db+5, 1};
+		titles[] = {};
+	};
+	class 06_tip_casp
+	{
+		name = "06_tip_casp";
+		sound[] = {"\Sound\06_tip_casp.ogg", db+5, 1};
+		titles[] = {};
+	};
+	class 07_tip_casp
+	{
+		name = "07_tip_casp";
+		sound[] = {"\Sound\07_tip_casp.ogg", db+5, 1};
+		titles[] = {};
+	};	
+	class 01_tease
+	{
+		name = "01_tease";
+		sound[] = {"\Sound\01_tease.ogg", 1, 1};
+		titles[] = {};
+	};
+	class 02_tease
+	{
+		name = "02_tease";
+		sound[] = {"\Sound\02_tease.ogg", 0.9, 1};
+		titles[] = {};
+	};
+	class 03_tease
+	{
+		name = "03_tease";
+		sound[] = {"\Sound\03_tease.ogg", 1, 1};
+		titles[] = {};
+	};
+	class 04_tease
+	{
+		name = "04_tease";
+		sound[] = {"\Sound\04_tease.ogg", 1, 1};
+		titles[] = {};
+	};	
+	class 01_atk_bg
+	{
+		name = "01_atk_bg";
+		sound[] = {"\Sound\01_atk_bg.ogg", 1, 1};
+		titles[] = {};
+	};
+	class 02_atk
+	{
+		name = "02_atk";
+		sound[] = {"\Sound\02_atk.ogg", 1, 1};
+		titles[] = {};
+	};
+	class 03_atk
+	{
+		name = "03_atk";
+		sound[] = {"\Sound\03_atk.ogg", 1, 1};
+		titles[] = {};
+	};
+	class 04_atk
+	{
+		name = "04_atk";
+		sound[] = {"\Sound\04_atk.ogg", 1, 1};
+		titles[] = {};
+	};
+	class tiuit
+	{
+		name = "tiuit";
+		sound[] = {\Sound\tiuit.ogg, 0.2, 1.0};
+		titles[] = {0, ""};	
+	};
+	class puls
+	{
+		name = "puls";
+		sound[] = {"\Sound\puls.ogg", db+10, 1};
+		titles[] = {};
+	};	
 };
 
 class CfgMusic {

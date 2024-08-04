@@ -1,6 +1,8 @@
 //setViewDistance 350;
 0 setFog [1, 0.04, 0];
 960000 setFog [0, 0, 0];
+
+/*
 titleCut ["", "BLACK FADED", 999];
 
 titleText ["", "PLAIN DOWN"];
@@ -55,3 +57,4 @@ sleep 5;
 "dynamicBlur" ppEffectCommit 5;
 
 titleCut ["", "BLACK IN", 5];
+*/
