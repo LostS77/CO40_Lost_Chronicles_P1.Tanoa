@@ -10,32 +10,32 @@ _unitPos = getPos _unit;
 private _createFireParticles = {
     params ["_pos"];
 
-    // Define a custom particle effect
+    // Define a custom particle effect using a known texture
     private _particleEffect = "#particlesource" createVehicleLocal _pos;
 
     _particleEffect setParticleParams [
-        ["\A3\data_f\ParticleEffects\Fire\FireSmall", 16, 12, 8, 0], // Particle texture and params
+        ["\A3\data_f\ParticleEffects\Universal\Universal", 16, 7, 48, 0], // Using a known texture
         "", // Animation name (empty for none)
         "Billboard", // Particle shape
         1, // Animation phase
         10, // Animation speed
         [0, 0, 0], // Initial position offset
-        [0, 0, 0.5], // Initial velocity to make flames rise
+        [0, 0, 1], // Initial velocity to make flames rise
         0, // Rotation velocity
         1, // Weight (higher weight for upward movement)
         0.1, // Volume
         0.1, // Rubbing (helps simulate air resistance)
-        [0.5, 2, 3, 5], // Size over time to create a flickering effect
-        [[1, 0.8, 0.5, 0.8], [1, 0.6, 0.2, 0.6], [1, 0.2, 0, 0.2], [1, 0.1, 0, 0]], // Color over time to simulate burning out
-        [0.1], // Animation speed over time
+        [1, 3, 5, 7], // Size over time to create a flickering effect
+        [[1, 0.7, 0.5, 0.8], [1, 0.5, 0.2, 0.6], [1, 0.2, 0, 0.3], [1, 0.1, 0, 0]], // Color over time to simulate burning out
+        [0.05], // Animation speed over time
         1, // Random direction period
-        0.1, // Random direction intensity to add some randomness to the flames
+        0.2, // Random direction intensity to add some randomness to the flames
         "", // Optional animation frame index (empty for none)
         "", // Optional random frame animation index (empty for none)
         _pos // Particle position
     ];
 
-    _particleEffect setDropInterval 0.005; // Faster drop interval for more intense effect
+    _particleEffect setDropInterval 0.01; // Faster drop interval for more intense effect
 
     _particleEffect
 };
