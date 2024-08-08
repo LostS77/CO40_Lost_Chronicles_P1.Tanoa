@@ -14,15 +14,25 @@ private _createFireParticles = {
     private _particleEffect = "#particlesource" createVehicleLocal _pos;
 
     _particleEffect setParticleParams [
-        ["\A3\data_f\cl_basic.p3d", 1, 1, 1, 0],
-        "", "Billboard", 1, 10,
-        [0, 0, 0],     // initial position
-        [0, 0, 0.5],   // initial velocity
-        0, 1.275, 1, 0, 0.075,
-        [0.1, 0.5, 1.2], // size over time
-        [[1,0.5,0,0.3], [1,0.5,0,0.15], [1,0.5,0,0]], // color over time
-        [0.1],         // animation speed
-        1, 1, "", "", _pos
+        ["\A3\data_f\cl_basic.p3d", 1, 1, 1, 0], // Particle texture and params
+        "", // Animation name (empty for none)
+        "Billboard", // Particle shape
+        1, // Animation phase
+        10, // Animation speed
+        [0, 0, 0], // Initial position
+        [0, 0, 0.5], // Initial velocity
+        0, // Rotation velocity
+        1.275, // Weight
+        1, // Volume
+        0, // Rubbing
+        [0.075], // Size over time
+        [[1, 0.5, 0, 0.3], [1, 0.5, 0, 0.15], [1, 0.5, 0, 0]], // Color over time
+        [0.1], // Animation speed over time
+        1, // Random direction period
+        1, // Random direction intensity
+        "", // Optional animation frame index (empty for none)
+        "", // Optional random frame animation index (empty for none)
+        _pos // Particle position
     ];
 
     _particleEffect setDropInterval 0.01;
@@ -41,15 +51,25 @@ private _createFireParticles = {
 
         _particleEffect = "#particlesource" createVehicleLocal _offset;
         _particleEffect setParticleParams [
-            ["\A3\data_f\cl_basic.p3d", 1, 1, 1, 0],
-            "", "Billboard", 1, 10,
-            [0, 0, 0],
-            [0, 0, 0.5],
-            0, 1.275, 1, 0, 0.075,
-            [0.1, 0.5, 1.2],
-            [[1,0.5,0,0.3], [1,0.5,0,0.15], [1,0.5,0,0]],
-            [0.1],
-            1, 1, "", "", _offset
+            ["\A3\data_f\cl_basic.p3d", 1, 1, 1, 0], // Particle texture and params
+            "", // Animation name (empty for none)
+            "Billboard", // Particle shape
+            1, // Animation phase
+            10, // Animation speed
+            [0, 0, 0], // Initial position
+            [0, 0, 0.5], // Initial velocity
+            0, // Rotation velocity
+            1.275, // Weight
+            1, // Volume
+            0, // Rubbing
+            [0.075], // Size over time
+            [[1, 0.5, 0, 0.3], [1, 0.5, 0, 0.15], [1, 0.5, 0, 0]], // Color over time
+            [0.1], // Animation speed over time
+            1, // Random direction period
+            1, // Random direction intensity
+            "", // Optional animation frame index (empty for none)
+            "", // Optional random frame animation index (empty for none)
+            _offset // Particle position
         ];
         _particleEffect setDropInterval 0.01;
         _particleEffects pushBack _particleEffect;
