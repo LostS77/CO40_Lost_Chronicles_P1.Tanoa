@@ -14,22 +14,22 @@ private _createFireParticles = {
     private _particleEffect = "#particlesource" createVehicleLocal _pos;
 
     _particleEffect setParticleParams [
-        ["\A3\data_f\cl_basic.p3d", 1, 1, 1, 0], // Particle texture and params
+        ["\A3\data_f\ParticleEffects\Universal\Universal", 16, 7, 48, 0], // Particle texture and params
         "", // Animation name (empty for none)
         "Billboard", // Particle shape
         1, // Animation phase
         10, // Animation speed
-        [0, 0, 0], // Initial position
-        [0, 0, 0.5], // Initial velocity
+        [0, 0, 0], // Initial position offset
+        [0, 0, 1], // Initial velocity
         0, // Rotation velocity
-        1.275, // Weight
-        1, // Volume
-        0, // Rubbing
-        [0.075], // Size over time
-        [[1, 0.5, 0, 0.3], [1, 0.5, 0, 0.15], [1, 0.5, 0, 0]], // Color over time
-        [0.1], // Animation speed over time
+        0.5, // Weight
+        0.1, // Volume
+        0.5, // Rubbing
+        [2, 5, 10], // Size over time
+        [[1, 0.6, 0, 0.8], [1, 0.3, 0, 0.6], [1, 0.1, 0, 0]], // Color over time
+        [0.05], // Animation speed over time
         1, // Random direction period
-        1, // Random direction intensity
+        0.1, // Random direction intensity
         "", // Optional animation frame index (empty for none)
         "", // Optional random frame animation index (empty for none)
         _pos // Particle position
@@ -37,45 +37,7 @@ private _createFireParticles = {
 
     _particleEffect setDropInterval 0.01;
 
-    // Repeat the process for additional fires if needed
-    private _particleEffects = [_particleEffect];
-
-    // Create additional fire particle effects around the position
-    for "_i" from 1 to 4 do {
-        _offset = switch (_i) do {
-            case 1: {[_pos select 0 + 1, _pos select 1, _pos select 2]};
-            case 2: {[_pos select 0 - 1, _pos select 1, _pos select 2]};
-            case 3: {[_pos select 0, _pos select 1 + 1, _pos select 2]};
-            case 4: {[_pos select 0, _pos select 1 - 1, _pos select 2]};
-        };
-
-        _particleEffect = "#particlesource" createVehicleLocal _offset;
-        _particleEffect setParticleParams [
-            ["\A3\data_f\cl_basic.p3d", 1, 1, 1, 0], // Particle texture and params
-            "", // Animation name (empty for none)
-            "Billboard", // Particle shape
-            1, // Animation phase
-            10, // Animation speed
-            [0, 0, 0], // Initial position
-            [0, 0, 0.5], // Initial velocity
-            0, // Rotation velocity
-            1.275, // Weight
-            1, // Volume
-            0, // Rubbing
-            [0.075], // Size over time
-            [[1, 0.5, 0, 0.3], [1, 0.5, 0, 0.15], [1, 0.5, 0, 0]], // Color over time
-            [0.1], // Animation speed over time
-            1, // Random direction period
-            1, // Random direction intensity
-            "", // Optional animation frame index (empty for none)
-            "", // Optional random frame animation index (empty for none)
-            _offset // Particle position
-        ];
-        _particleEffect setDropInterval 0.01;
-        _particleEffects pushBack _particleEffect;
-    };
-
-    _particleEffects
+    _particleEffect
 };
 
 // Create fire particle effects on the AI unit
