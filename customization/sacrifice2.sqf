@@ -44,10 +44,10 @@ private _createFireParticles = {
 _fires = [_unitPos] call _createFireParticles;
 
 // Apply damage to the AI unit
-_unit setDamage 1;
+//_unit setDamage 1;
 
 // Wait for 5 seconds
-sleep 5;
+sleep 10;
 
 // Delete the fire particle effects
 { deleteVehicle _x } forEach _fires;
