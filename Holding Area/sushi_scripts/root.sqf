@@ -1,6 +1,7 @@
-/*
-//#include "script_component.hpp"
 
+#include "script_component.hpp"
+
+/*
 #ifdef description
     class GVAR(settings) {
         #include "settings.hpp"

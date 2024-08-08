@@ -16,8 +16,6 @@ Enabled modules by default, disable them by adding // in front.
 
 #include "anomalies\root.sqf"
 
-#include "sushi_scripts\root.sqf"
-
 /*
 Additional modules that can be enabled by removing the //
 !!Some of them require changing settings in their settings.sqf file!!
